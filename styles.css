@@ -1,0 +1,78 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+:root {
+    /* Colors */
+    --White: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-gray);
+    height: 100dvh;
+    width:  100dvw;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--White);
+    padding: 16px;
+    border-radius: 20px;
+    height: 498px;
+    width: 320px;
+    color: var(--dark-blue);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    & img {
+        width: 100%;
+        border-radius: 10px;
+    }   
+}
+
+.qr-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 288px;
+    height: 288px;
+}
+
+h1 {
+    padding-top: 1.4rem;
+    padding-bottom: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--grayish-blue);
+    text-align: center;
+    padding-inline: 1rem;
+    padding-bottom: 1.4rem;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 10px;
+
+    & a {
+        color: hsl(228, 45%, 44%);
+    }
+}
