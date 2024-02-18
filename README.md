@@ -24,7 +24,7 @@ This challenge is a very simple page showing a single card with a QR code image.
 ### Links
 
 - Solution URL: [Find solution here](https://github.com/gnunez0101/gnunez0101.github.io)
-- Live Site URL: [Find live site here](https://gnunez0101.github.io/)
+- Live Site URL: [Find live site here](https://gnunez0101.github.io/qr-code/)
 
 ## My process
 
